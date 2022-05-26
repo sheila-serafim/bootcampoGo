@@ -6,5 +6,6 @@ var nome string = "Sheila"
 var idade int = 36
 
 func main() {
-	fmt.Println(nome, idade)
+	fmt.Println("Nome:	", nome)
+	fmt.Println("Idade:	", idade)
 }
