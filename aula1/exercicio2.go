@@ -1,4 +1,4 @@
-package main
+package exercicio2
 
 import "fmt"
 
