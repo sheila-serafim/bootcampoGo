@@ -23,6 +23,7 @@ func exercicio2() {
 }
 
 func exercicio3() {
+
 	var nome string      //retirado o 1 da frente do nome
 	var sobrenome string //estava certa
 	var idade int        //coloquei o tipo na frente do nome
@@ -40,6 +41,17 @@ func exercicio3() {
 	fmt.Printf("%s %s %v %v %d %d", nome, sobrenome, idade, licenca_para_dirigir, estaturaDaPessoa, quantidadeDeFilhos)
 }
 
+func exercicio4() {
+
+	var sobrenome string = "Silva"
+	var idade int = 25
+	feriado := false
+	var salario float32 = 4548.90
+	var nome string = "Fillipe"
+
+	fmt.Printf("%s %d %v %.2f %s", sobrenome, idade, feriado, salario, nome)
+}
+
 func main() {
 
 	exercicio1()
@@ -47,5 +59,7 @@ func main() {
 	exercicio2()
 	fmt.Println()
 	exercicio3()
+	fmt.Println()
+	exercicio4()
 	fmt.Println()
 }
